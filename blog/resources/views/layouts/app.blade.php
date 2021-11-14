@@ -16,11 +16,10 @@
 
 <body>
 
-    <div class="container-fluid">
         <main class="py-4">
             @yield('content')
         </main>
-    </div>
+    
 
     <script>
         var root_url = <?php echo json_encode(route('data')) ?>;
